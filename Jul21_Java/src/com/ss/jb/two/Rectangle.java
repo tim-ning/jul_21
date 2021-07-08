@@ -20,5 +20,4 @@ public class Rectangle implements Shape {
 		System.out.println("Rectangle with a width of " + width + " and a height of " + height + " has an area of "
 				+ calculateArea() + "." + System.lineSeparator());
 	}
-
 }

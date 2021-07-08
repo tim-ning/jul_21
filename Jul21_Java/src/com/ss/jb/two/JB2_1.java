@@ -50,5 +50,4 @@ public class JB2_1 {
 		// end of program
 		System.out.println("Program exited!");
 	}
-
 }

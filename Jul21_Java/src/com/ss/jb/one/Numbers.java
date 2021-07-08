@@ -54,5 +54,4 @@ public class Numbers {
 		System.out.print(success ? "Success!" : "Sorry!");
 		System.out.println(" The number was " + num + ".");
 	}
-
 }

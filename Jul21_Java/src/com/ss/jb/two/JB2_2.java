@@ -53,5 +53,4 @@ public class JB2_2 {
 				System.lineSeparator() + "The largest number is " + max + " at row " + row + ", column " + col + ".");
 
 	}
-
 }

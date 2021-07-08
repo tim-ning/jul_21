@@ -19,5 +19,4 @@ public class Circle implements Shape {
 		System.out.println("Circle with a radius of " + radius + " has an area of "
 				+ String.format("%.2f", calculateArea()) + "." + System.lineSeparator());
 	}
-
 }

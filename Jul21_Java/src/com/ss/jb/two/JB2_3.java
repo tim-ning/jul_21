@@ -33,5 +33,4 @@ public class JB2_3 {
 		circ.display();
 		tri.display();
 	}
-
 }

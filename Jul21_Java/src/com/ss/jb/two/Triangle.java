@@ -20,5 +20,4 @@ public class Triangle implements Shape {
 		System.out.println("Triangle with a base of " + base + " and a height of " + height + " has an area of "
 				+ calculateArea() + "." + System.lineSeparator());
 	}
-
 }
