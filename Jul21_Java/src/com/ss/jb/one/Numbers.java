@@ -1,6 +1,7 @@
 package com.ss.jb.one;
 
-import java.io.*;
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
 import java.util.Random;
 
 /**
