@@ -2,6 +2,8 @@ package com.ss.jb.tests;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotEquals;
+import static org.junit.Assert.assertThrows;
+
 import org.junit.Test;
 import com.ss.jb.four.Line;
 
@@ -21,6 +23,7 @@ public class LineTest {
 	Line ln1 = new Line(0, 0, 1, 1);
 	Line ln2 = new Line(2, 0, 3, 1);
 	Line ln3 = new Line(4, 7, 2, 10);
+	Line ln4 = new Line(0, 6, 0, 7);
 
 	@Test
 	public void testParallelTo() {
@@ -33,6 +36,7 @@ public class LineTest {
 	public void testSlope() {
 		assertEquals(new Double(1), ln1.getSlope(), delta);
 		assertNotEquals(new Double(9), ln1.getSlope(), delta);
+		assertThrows(ArithmeticException.class, ln4::getSlope);
 	}
 
 	@Test
