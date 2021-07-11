@@ -32,6 +32,7 @@ public class JB4_2 {
 						
 						//request resource s2
 						synchronized (s2) {
+							System.out.println(s2);
 						}
 					}
 				} catch (Exception e) {
@@ -54,6 +55,7 @@ public class JB4_2 {
 						
 						//request resource s1
 						synchronized (s1) {
+							System.out.println(s1);
 						}
 					}
 				} catch (Exception e) {
@@ -67,8 +69,6 @@ public class JB4_2 {
 		//start both threads
 		new Thread(t1).start();
 		new Thread(t2).start();
-
-		System.out.println("End of deadlock test.");
 
 	}
 
